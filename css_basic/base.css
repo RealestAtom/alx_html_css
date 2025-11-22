@@ -62,3 +62,23 @@ header img {
 ```
 
 }
+@media (max-width: 600px) {
+    nav a {
+        display: block;
+        margin: 8px 0;
+    }
+
+    header img {
+        width: 50px;
+    }
+
+    main {
+        flex-direction: column; /* Stack article + aside vertically */
+    }
+
+    article, aside {
+        flex: none;
+        width: 100%;
+    }
+}
+
