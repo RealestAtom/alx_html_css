@@ -1,55 +1,86 @@
 /* Custom styling for pages */
 
+/* Headings */
 h1, h2 {
     color: #0b3d91;
-    }
-    
-    .card {
+    margin: 0 0 10px 0;
+}
+
+/* Cards */
+.card {
     background: white;
     padding: 15px;
     margin: 15px 0;
     border-radius: 6px;
     border: 1px solid #e0e0e0;
-    }
-    
-    /* Gallery */
-    .gallery {
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Article & Aside spacing */
+article, aside {
+    margin: 10px;
+}
+
+/* Gallery */
+.gallery {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 15px;
-    }
-    
-    .gallery img {
+}
+
+.gallery img {
     width: 100%;
     border-radius: 6px;
-    }
-    
-    /* Contact form */
-    form {
+}
+
+/* Contact form */
+form {
     background: white;
     padding: 15px;
     border: 1px solid #ddd;
     border-radius: 6px;
-    }
-    
-    input, textarea {
+}
+
+input, textarea {
     width: 100%;
     padding: 10px;
     margin: 8px 0 15px 0;
     border: 1px solid #ccc;
     border-radius: 5px;
-    }
-    
-    button {
+}
+
+button {
     background: #0b3d91;
     padding: 10px 18px;
     border: none;
     color: white;
     border-radius: 5px;
     cursor: pointer;
-    }
-    
-    button:hover {
+}
+
+button:hover {
     background: #072c66;
-    }
-    
+}
+
+/* Tweets cards */
+.tweet-card {
+    background: white;
+    padding: 15px;
+    margin: 15px 0;
+    border-radius: 6px;
+    border: 1px solid #ddd;
+}
+
+.tweet-card h3 {
+    margin: 0;
+    color: #0b3d91;
+}
+
+.tweet-card p {
+    margin: 8px 0;
+}
+
+.tweet-card .time {
+    font-size: 0.8rem;
+    color: gray;
+}
